@@ -1,0 +1,38 @@
+# Core Streamlit UI and Python web
+streamlit
+
+# Google Agentic Stack (ADK, Gemini, Wallet, AI)
+google-adk
+google-genai
+google-generativeai
+google-cloud-vision
+# Essential Google Cloud dependencies (do not pin GCS separately—let ADK/fetch decide)
+firebase-admin          # for Firestore + Firebase Storage (includes proper google-cloud-firestore and gcs)
+
+# PDF and image parsing, OCR
+opencv-python
+pytesseract
+
+# Data processing
+numpy
+pandas
+
+# Plotting/visualization for UI
+altair
+pydeck
+
+# Misc (used by ADK, LLMs, or agent tools)
+requests
+python-dotenv           # if you use .env secrets/configs
+
+# For wallet API, JWT, and security tokens (if handling Google Wallet)
+PyJWT
+cryptography
+
+# For basic async and web serving
+fastapi
+uvicorn
+
+# For upload/saving files (optional, but common)
+python-multipart
+dotenv
